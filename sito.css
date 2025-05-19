@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* Reset minimale */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
+
+.main-section {
+    padding: 20px;
+}
+
+.image-container {
+    min-height: 500px;
+    background-image: url('https://via.placeholder.com/1200x500.png?text=Immagine+Paesaggio'); /* Placeholder */
+    background-size: cover;
+    background-position: center;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    color: white; 
+    
+}
+
+.image-container h1 {
+    font-family: 'Prata', serif;
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.image-container h3 {
+    font-family: 'Prata', serif; 
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.author-paragraph {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    margin-top: 20px; 
+}
+
+.author-paragraph a {
+    color: inherit; 
+    text-decoration: underline; 
+}
+
+hr {
+    border: 0;
+    height: 2px; 
+    background-color: #333; 
+    font-style: italic; 
+    margin: 20px 0; 
+}
+
+
+.related-links-title { 
+    padding: 22px;
+    margin-top: 56px;
+    margin-bottom: 0;
+    color: white;
+    background: linear-gradient(to right, #6dd5ed, #2193b0); 
+    border-radius: 6px;
+    text-align: center; 
+}
+
+.related-links-list { 
+    list-style-type: none; 
+    padding: 0; 
+    margin-bottom: 20px; 
+}
+
+.related-links-list li {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.related-links-list li a {
+    text-decoration: none;
+}
+
+.related-links-list li:nth-child(odd) a { 
+    color: #6dd5ed; 
+}
+
+.related-links-list li:nth-child(even) a {
+    color: #2193b0;
+}
+
+
+/* Stile per il footer */
+footer {
+    padding: 16px;
+    background-color: black;
+    color: white;
+    text-align: left; 
+   
+    border-left: 1px solid black; 
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+footer .footer-link { 
+    display: block; 
+    text-align: center;
+    color: white; 
+    text-decoration: none;
+    padding: 10px 0; 
+}
+
+
