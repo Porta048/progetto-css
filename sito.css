@@ -19,32 +19,26 @@ body {
 
 .image-container {
     min-height: 500px;
-    background-image: url('https://via.placeholder.com/1200x500.png?text=Immagine+Paesaggio'); /* Placeholder */
+    background-image: url('natura.png');
     background-size: cover;
     background-position: center;
-    display: flex; 
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center; 
-    color: white; 
-    
 }
 
-.image-container h1 {
+.main-section > h1 {
     font-family: 'Prata', serif;
     font-size: 64px;
     font-weight: 400;
     margin-bottom: 0;
+    margin-top: 20px;
 }
 
-.image-container h3 {
+.main-section > h3 {
     font-family: 'Prata', serif; 
     font-size: 24px;
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 0;
 }
-
 
 .author-paragraph {
     font-family: 'Montserrat', sans-serif;
@@ -53,8 +47,10 @@ body {
 }
 
 .author-paragraph a {
-    color: inherit; 
-    text-decoration: underline; 
+    color: inherit;
+    text-decoration: underline;
+    font-weight: 600;
+    font-style: italic;
 }
 
 hr {
@@ -65,13 +61,12 @@ hr {
     margin: 20px 0; 
 }
 
-
 .related-links-title { 
     padding: 22px;
     margin-top: 56px;
     margin-bottom: 0;
     color: white;
-    background: linear-gradient(to right, #6dd5ed, #2193b0); 
+    background: linear-gradient(to right, #76c893, #168aad);
     border-radius: 6px;
     text-align: center; 
 }
@@ -91,16 +86,8 @@ hr {
 
 .related-links-list li a {
     text-decoration: none;
+    color: #76c893;
 }
-
-.related-links-list li:nth-child(odd) a { 
-    color: #6dd5ed; 
-}
-
-.related-links-list li:nth-child(even) a {
-    color: #2193b0;
-}
-
 
 /* Stile per il footer */
 footer {
@@ -108,10 +95,6 @@ footer {
     background-color: black;
     color: white;
     text-align: left; 
-   
-    border-left: 1px solid black; 
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
 }
 
 footer .footer-link { 
